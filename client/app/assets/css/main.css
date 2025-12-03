@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@import "./light.css";
+@import "./dark.css";
+
+:root {
+  @apply overflow-y-auto scroll-smooth;
+}
+
+
+*,
+*:after,
+*:before{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.v-application {
+    background-color: var(--md-sys-color-tertiary-container);
+    @apply flex justify-center
+}
+
+h1 {
+    @apply text-3xl font-semibold
+}

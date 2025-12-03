@@ -1,0 +1,23 @@
+{
+  "name": "client",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@mdi/js": "^7.4.47",
+    "@pinia-plugin-persistedstate/nuxt": "^1.2.1",
+    "@pinia/nuxt": "^0.11.3",
+    "@tailwindcss/vite": "^4.1.17",
+    "nuxt": "^4.2.1",
+    "pinia": "^3.0.4",
+    "vite-plugin-vuetify": "^2.1.2",
+    "vue": "^3.5.25",
+    "vue-router": "^4.6.3"
+  }
+}
