@@ -2,6 +2,9 @@ import tailwindcss from "@tailwindcss/vite";
 import vuetify, { transformAssetUrls } from 'vite-plugin-vuetify'
 
 export default defineNuxtConfig({
+  app: {
+    baseURL: '/tracker/'
+  },
   compatibilityDate: "2025-07-15",
   devtools: { enabled: true },
   modules: ['@pinia/nuxt'],
