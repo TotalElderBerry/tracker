@@ -1,7 +1,6 @@
 <template>
     <div>
         <v-card
-            max-width="800"
             min-height="600"
             variant="flat"
         >
@@ -55,7 +54,7 @@
     
             </template>
         </v-card>
-        <div class="flex justify-center">
+        <div class="flex justify-center fixed bottom-4 left-1/2 -translate-x-1/2">
             <v-btn
                 :icon="mdiPlus"
                 color="primary"
